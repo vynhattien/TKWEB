@@ -2,7 +2,7 @@ body{
     font: 15px/1.5 Arial, Helvetica,sans-serif;
     padding:0;
     margin:0;
-    background-color:#856969;
+    background-color:rgb(71, 222, 25);
   }
 /* Global */
 .container{
@@ -18,29 +18,29 @@ ul{
 }
 
 .button_1{
-  background-color: rgb(15, 108, 196);
-  color: white;
+  background-color:rgb(50, 211, 232);
+  color:#fafaf7;
   font-size: 22px;
   margin-bottom:
 }
 
 .dark{
-  background-color: rgb(49, 49, 42);
+  background-color: rgb(76, 0, 255); 
   color: black;
   padding: 22px;
 }
   
   /* Header **/
   header{
-    background:rgb(0, 255, 42);
-    color:#f7f7fa;
+    background:rgb(50, 211, 232);
+    color:#fafaf7;
     padding-top:20px;
     min-height:60px;
-    border-bottom:#6c0b3c 10px solid;
+    border-bottom:3px solid red;;;
   }
   
   header a{
-    color: rgb(247, 247, 249);
+    color: rgb(76, 0, 255); 
     text-decoration:solid;
     text-transform:uppercase; 
     font-size: 17px;
@@ -67,12 +67,12 @@ ul{
   }
   
   header .highlight, header .current a{
-    color: rgb(10, 10, 128);
+    color: rgb(83, 128, 10);
     font-weight:0;
   }
   
   header a:hover{
-    color: rgb(10, 10, 128);
+    color: rgb(128, 10, 59);
     font-weight:0;
   }
   
@@ -117,7 +117,7 @@ ul{
     padding:20px;
     margin-top:20px;
     color:#ffffff;
-    background-color:blue;
+    background-color:rgb(76, 0, 255); ;
     text-align: center;
   }
   
