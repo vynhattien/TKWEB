@@ -68,7 +68,7 @@ ul{
     padding:25px;
     margin-top:25px;
     color:#ffffff;
-    background-color:red;
+    background-color:rgb(76, 0, 255); 
     text-align: center;
   }
   
