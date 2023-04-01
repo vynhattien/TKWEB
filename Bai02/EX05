@@ -1,69 +1,81 @@
 body{
     font: 15px/1.5 Arial, Helvetica,sans-serif;
-    padding: 0;
-    margin: 0;
-    background-color: #d2ddca;
-}
-
+    padding:0;
+    margin:0;
+    background-color:#f4f4f4;
+  }
 /* Global */
 .container{
-  margin: 0 10%;
+    margin-top: 0;
+    margin-bottom: 0px;
+    margin-right: 150px;
+    margin-left: 70px;
+
 }
 
 ul{
- list-style: none;
- margin: 0  -40px
+    margin-left: 70px;
 }
-
-/* Header **/
-header{
-    background: rgb(3, 34, 34);
-    padding-top: 30px;
-    min-height: 70px;
-    border-bottom: 3px solid black;
-    color: white;
-}
-
-header a{
-    color: white;
-    text-decoration: none;
-    text-transform: uppercase;
-    font-size: 20px;
-}
-
-header li{
+  
+  /* Header **/
+  header{
+    background:blue;
+    color:#f7f7fa;
+    padding-top:20px;
+    min-height:60px;
+    border-bottom:#240b6c 10px solid;
+  }
+  
+  header a{
+    color: rgb(247, 247, 249);
+    text-decoration:solid;
+    text-transform:uppercase; 
+    font-size: 17px;
+  }
+  
+  header li{
+    display:inline-block;
+    padding-right: 20px;
+    text-align: right;
+    float:none;
+  }
+  
+  header #branding{
     float: none;
-    display: inline-block;
-    padding: 20px;
-}
-
-header #branding{
-    float: none;
-}
-
-header #branding h1{
-    margin: 10px;
-}
-
-header nav{
+  }
+  
+  header #branding h1{
+    margin: 0;
+  }
+  
+  header nav{
     float: right;
-    margin-top: -80px;
-}
-
-header .highlight, header .current a{
-    color: white;
-    font-weight: 20px;
-}
-
-header a:hover{
-    color: black;
-    font-weight: 20px;
-}
-
-footer{
-    background-color: white;
-    padding: 20px;
-    margin-top: 20px;
+    margin-top:-40px;
+  }
+  
+  header .highlight, header .current a{
+    color: rgb(16, 13, 128);
+    font-weight:0;
+  }
+  
+  header a:hover{
+    color: rgb(13, 16, 148);
+    font-weight:0;
+  }
+  
+  
+  footer{
+    padding:25px;
+    margin-top:25px;
+    color:#ffffff;
+    background-color:red;
     text-align: center;
-    color: black
-}
+  }
+  
+  
+  
+    #newsletter form input[type="email"], .quote input, .quote textarea{
+      chiều rộng:  30px;
+      lề dưới: 10px;
+    }
+  
