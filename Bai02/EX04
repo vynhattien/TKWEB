@@ -1,29 +1,69 @@
 body{
-  background-color:#519D90;
-  
+  font: 15px/1.5 Arial, Helvetica,sans-serif;
+  padding:0;
+  margin:0;
+  background-color:#f4f4f4;
 }
 
 
 /* Header **/
 header{
-
- color:cornsilk;
- background-color:#82363A;
- border-bottom: 3px solid#73AD21
- font-size:
- 
+  background:rgb(51, 255, 0);
+  color:#fafaf7;
+  padding-top:5px;
+  min-height:5px;
+  border-bottom:#605c6e 10px solid;
 }
 
+header a{
+  color: rgb(247, 247, 249);
+  text-decoration:solid;
+  text-transform:uppercase; 
+  font-size: 17px;
+}
+
+header li{
+  display:inline-block;
+  padding-right: 20px;
+  text-align: right;
+  float:none;
+}
+
+header #branding{
+  float: none;
+}
+
+header #branding h1{
+  margin: 0;
+}
+
+header nav{
+  float: right;
+  margin-top:-40px;
+}
+
+header .highlight, header .current a{
+  color: rgb(83, 128, 10);
+  font-weight:0;
+}
+
+header a:hover{
+  color: rgb(128, 10, 59);
+  font-weight:0;
+}
+
+
 footer{
+  padding:20px;
+  margin-top:20px;
+  color:#ffffff;
+  background-color:rgb(136, 255, 0);
+  text-align: center;
+}
 
-    
-                  position: relative;
-                  width: 1600px;
-                  height: 50px;
-                  border: 1px solid #E55151;
-                  text-align: center;
-                  background-color:#E55151
-   
 
-   
-   }
+
+  #newsletter form input[type="email"], .quote input, .quote textarea{
+    width: 100%;
+    margin-bottom: 5px;
+  }
