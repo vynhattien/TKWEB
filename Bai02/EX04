@@ -1,22 +1,22 @@
 body{
-  font: 15px/1.5 Arial, Helvetica,sans-serif;
-  padding:0;
-  margin:0;
-  background-color:#f4f4f4;
+  font: 12px/1.5 Arial, Helvetica,sans-serif;
+  padding:3;
+  margin:3;
+  background-color:rgb(71, 222, 25);
 }
 
 
 /* Header **/
 header{
-  background:rgb(51, 255, 0);
+  background:rgb(50, 211, 232);
   color:#fafaf7;
-  padding-top:5px;
-  min-height:5px;
-  border-bottom:#605c6e 10px solid;
+  padding-top:4px;
+  min-height:4px;
+  border-bottom:3px solid red;;
 }
 
 header a{
-  color: rgb(247, 247, 249);
+  color: rgb(76, 0, 255); 
   text-decoration:solid;
   text-transform:uppercase; 
   font-size: 17px;
