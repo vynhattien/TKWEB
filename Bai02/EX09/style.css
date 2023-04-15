@@ -1,0 +1,163 @@
+body{
+    background-color:white;
+    font-size: 20px;
+    background-color: rgb(71, 222, 25);
+    margin: 0;
+    padding: 0;
+    
+  }
+  .button_1{
+    padding: 10px 20px;
+    font-size: 15px;
+    background: rgb(50, 211, 232);
+    color: #fafaf7;
+    border: transparent;
+  }
+  
+  .dark{
+   background: rgb(76, 0, 255); 
+   font-size: 20px;
+   color: black;
+   padding: 10px;
+  }
+  
+  
+  /* Header **/
+  header{
+  color:#f4f4f4;
+     
+  border-radius: 25px;
+  min-height: 70px;
+  padding-top:30px;
+  background-color: rgb(94, 207, 207);
+  border-bottom: 3px solid red;
+  
+  
+  }
+  
+  header a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: rgb(76, 0, 255); 
+  
+  }
+  
+  header li{
+    float:left;
+    display: inline-block;
+    padding:0 20px 0 21px;
+    
+  }
+  
+  header #branding{
+    float: left;
+  
+  }
+  
+  header #branding h1{
+    
+    margin: 10px;
+  }
+  
+  header nav{
+    float: right;
+    margin-top: 10px;
+  
+  }
+  
+  header .highlight, header .current a{
+    color: rgb(83, 128, 10);
+    font-weight: 20px;
+  }
+  
+  header a:hover{
+    background-color:rgb(128, 10, 59);
+    color:black;
+    font-weight: 20px;
+    
+  }
+  /* Showcase */
+  #showcase{
+    background-image: url('/img/showcase.jpg');
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 8%;
+  }
+  
+  #showcase h1{
+    color: white;
+    font-size: 50px;
+  }
+  
+  #showcase p{
+    color: #f4f4f4;
+    font-size: 20px;
+  }
+  
+  /* Newsletter */
+  #newsletter{
+  background: blue;
+  padding: 30px;
+  }
+  
+  #newsletter h1{
+  color:  white;
+  margin-top: auto;
+  }
+  
+  #newsletter form {
+  text-align: right;
+  margin-top: -55px;
+  }
+  
+  #newsletter input[type="email"]{
+  width: 230px;
+  height: 30px;
+  color: red;
+  }
+
+/* Boxes */
+#boxes {
+    columns: 5;
+      
+}
+
+#boxes .box{
+  width: 345px;
+  text-align: center; 
+  box-sizing: border-box;  
+}
+
+#boxes .box img{
+    width: 93px;  
+    margin-top: 22px;
+}
+
+
+/* Sidebar */
+aside#sidebar{
+    display: inline-block;
+    vertical-align: top;
+    width: 25%;
+    margin: 30px 0px 0px 30px;
+  }
+  
+  aside#sidebar .quote input, aside#sidebar .quote textarea{
+    width: 95%;
+    padding: 4px;
+  }
+  
+  /* Main-col */
+  article#main-col{
+    float: left;
+    width: 62%;
+  }
+
+footer{
+    background-color: rgb(76, 0, 255); ;
+    padding: 20px;
+    margin-top: 20px;
+    text-align: center;
+}
+
